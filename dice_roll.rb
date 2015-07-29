@@ -4,5 +4,8 @@
 
 def roll
   # code goes here
-  rand(1..6)
+  # rand(1..6)
+  # [1, 2, 3, 4, 5, 6].sample
+  # Array(1..6).sample
+  [1, 2, 3, 4, 5, 6].shuffle.pop
 end
